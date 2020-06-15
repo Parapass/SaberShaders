@@ -6,6 +6,7 @@
 Shader "Parapass/Unlit Outline" {
     Properties {
         _Color ("Color", Color) = (0.5,0.5,0.5,1)
+        [MaterialToggle] _CustomColors("Custom Colors", Float) = 0
         _Opacity ("Opacity", Range(0, 1)) = 1
         _OutlineColour ("Outline Colour", Color) = (0,0,0,1)
         _OutlineWidth ("Outline Width", Range(0, 1)) = 0.01941748
